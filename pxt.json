@@ -2,18 +2,29 @@
     "name": "template arcade project-name",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "storyboard": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.1",
+        "darts": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "radio": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1"
     },
     "files": [
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.4.28",
+        "target": "1.4.35",
         "targetId": "arcade"
     },
     "supportedTargets": [
